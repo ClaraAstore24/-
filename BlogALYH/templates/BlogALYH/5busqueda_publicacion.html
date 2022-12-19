@@ -1,0 +1,13 @@
+{% extends "BlogALYH/1base.html" %}
+
+{% block Contenido3 %}
+
+<form action="{% url 'resultado' %}" method="get">
+
+    <p>
+        <input type="text" name="nombre_publicacion">
+        <input type="submit" value="Buscar!">
+    </p>
+
+</form>
+{% endblock %}
